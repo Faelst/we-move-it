@@ -1,0 +1,29 @@
+.xxxBar{
+    display: flex;
+    align-items: center;
+}
+
+.xxxBar spam{
+    font-size: 1rem;
+}
+
+.xxxBar > div {
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background: var(--gray-line);
+    margin: 0 1.5rem;
+    position: relative;
+}
+
+.xxxBar > div > div {
+    height: 4px;
+    border-radius: 4px;
+    background: green;
+}
+
+.xxxBar span.currentXp{
+    position: absolute;
+    top: 12px;
+    transform: translateX(-50%);
+}

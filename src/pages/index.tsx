@@ -30,3 +30,20 @@ export default function Home() {
     </div>
   )
 }
+
+export const getServerSideProps = async () => {
+
+  const user = {
+    level: 1,
+    currentXp: 64,
+    challengesCompleted: 1
+  }
+
+  const userInformations = {
+    
+  }
+  console.log(user)
+  return {
+    props: {}
+  } 
+}

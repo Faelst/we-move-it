@@ -3,12 +3,8 @@ import { CountdownProvider } from "../contexts/CountdownContext";
 import "../styles/global.css";
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <ChallengesProvider>
-      <CountdownProvider>
+  return (      
         <Component {...pageProps} />
-      </CountdownProvider>
-    </ChallengesProvider>
   );
 }
 
